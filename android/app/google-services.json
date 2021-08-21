@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026726912839",
+    "project_id": "iot-liquid-monitoring-app",
+    "storage_bucket": "iot-liquid-monitoring-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026726912839:android:d94663f565a63ecb202262",
+        "android_client_info": {
+          "package_name": "com.example.water_level_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026726912839-rlq2cfqq92h47jbf8lq96dvv9ds0b7a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBik9U1lRYPTV7ZWi6WSFDkt9UibflNPio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026726912839-rlq2cfqq92h47jbf8lq96dvv9ds0b7a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
