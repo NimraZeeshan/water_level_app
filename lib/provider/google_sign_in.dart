@@ -12,11 +12,11 @@ class GoogleSignInProvider extends ChangeNotifier {
   }
 
   bool get isSigningIn => _isSigningIn;
-
+ 
   set isSigningIn(bool isSigningIn) {
     _isSigningIn = isSigningIn;
     notifyListeners();
-  }
+  } 
 
   Future login() async {
     isSigningIn = true;
