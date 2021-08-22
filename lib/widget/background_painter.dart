@@ -7,7 +7,7 @@ class Point {
   final double y;
 
   Point(this.x, this.y);
-}
+} 
 
 class BackgroundPainter extends CustomPainter {
   final Paint linePaint;
@@ -21,7 +21,7 @@ class BackgroundPainter extends CustomPainter {
           ..style = PaintingStyle.fill,
         greyPaint = Paint()
           ..color = Colors.cyanAccent[700]
-          ..style = PaintingStyle.fill,
+          ..style = PaintingStyle.fill, 
         orangePaint = Paint()
           ..color = Colors.lightBlue[100]
           ..style = PaintingStyle.fill,
