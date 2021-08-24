@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
@@ -24,7 +26,8 @@ class _LoggedInWidgetState extends State<LoggedInWidget> {
   void initState(){
     super.initState(); 
     _success = false;
-    _timer = Timer.periodic(Duration(milliseconds:5000), _generateTrace); 
+    _timer =  Timer(Duration(milliseconds: 5000), _generateTrace) 
+    periodic(Duration(milliseconds:5000), _generateTrace); 
     dataMap.putIfAbsent("Out of Range",()=> 100);
     dataMap.putIfAbsent("Below Range",()=> 0);
 
