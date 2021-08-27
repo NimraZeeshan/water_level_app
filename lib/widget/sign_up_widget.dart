@@ -23,7 +23,7 @@ class SignUpWidget extends StatelessWidget {
               child: Text(
                 'IoT based Liquid Level  Monitoring & Control',
                 style: TextStyle(
-                  color: Colors.white,  
+                  color: Colors.white,
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
                 ),
