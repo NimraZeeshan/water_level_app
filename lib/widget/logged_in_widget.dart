@@ -1,5 +1,4 @@
 // import 'dart:async';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 // import 'package:syncfusion_flutter_charts/charts.dart';
@@ -13,88 +12,6 @@ class LoggedInWidget extends StatefulWidget {
 }
 
 class _LoggedInWidgetState extends State<LoggedInWidget> {
-  // bool _success;
-  // List<double> traceData = List();
-  // Timer _timer;
-  // Map<String, double> dataMap = new Map();
-  // List<Color> colorList = [Colors.red, Colors.green];
-  // double globalCurrentSensorValue = 0;
-  @override
-
-  // void initState(){
-  //   super.initState();
-  //   _success = false;
-  //   _timer =  Timer(Duration(milliseconds: 5000), _generateTrace)
-  //   periodic(Duration(milliseconds:5000), _generateTrace);
-  //   dataMap.putIfAbsent("Out of Range",()=> 100);
-  //   dataMap.putIfAbsent("Below Range",()=> 0);
-
-  // }
-
-  // _generateTrace(Timer t){
-  //   setState(()
-  //   {
-  //     traceData.add(globalCurrentSensorValue);
-  //     });
-  //   }
-
-  //   Widget buildStreamBuilder(){
-  //     return Container(
-  //       child: !_success
-  //       ? Center(
-  //          child: CircularProgressIndicator(
-  //           valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
-  //          ),
-  // )
-  // :StreamBuilder(
-  //   stream: Firestore.instance.collection('distance').snapshots(),
-  //   builder: (context, snapshot) {
-  //     if (!snapshot.hasData) {
-  //           return Center(
-  //             child: CircularProgressIndicator(
-  //               valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
-  //             ),
-  //           );
-  //         } else {
-  //           snapshot.data.documents.forEach((f) {
-  //             if (f.documentID == '4gLK62OhntvuprRtq3Lh') {
-  //               print('current value = ${f['distance']}');
-  //               globalCurrentSensorValue = f['distance'].toDouble();
-  //               var tempDistanceValue = globalCurrentSensorValue;
-
-  //               dataMap["distance"] = tempDistanceValue;
-  //             }
-  //           });
-  //           return Center(
-  //             child: Container(
-  //               child: SfCartesianChart(
-  //               title: ChartTitle(text: 'Flutter Chart'),
-  //               legend: Legend(isVisible: true),
-  //               series: getDefaultData(),
-  //               tooltipBehavior: TooltipBehavior(enable: true),
-  //               primaryXAxis: CategoryAxis(),
-  //               series: <LineSeries<SalesData, String>>[
-  //                 LineSeries<SalesData, String>(
-
-  //             Column(
-  //               mainAxisAlignment: MainAxisAlignment.center,
-  //               children: <Widget>[
-
-  //                 child: SfCartesianChart,
-  //                 ),
-
-  //                           )
-  //                     ],
-  //                   ),
-  //                 )
-  //               ],
-  //             ),
-  //           );
-  //         }
-  //         //       },
-  //             ));
-  // }
-
   @override
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser;

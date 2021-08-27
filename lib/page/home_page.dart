@@ -5,6 +5,7 @@ import 'package:water_level_app/widget/logged_in_widget.dart';
 import 'package:water_level_app/widget/sign_up_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:water_level_app/provider/google_sign_in.dart';
+import 'package:water_level_app/widget/drawer.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -33,7 +34,7 @@ class _HomePageState extends State<HomePage> {
             },
           ),
         ),
-        drawer: Drawer(),
+        drawer: MyDrawer(),
       );
 
   Widget buildLoading() => Stack(
